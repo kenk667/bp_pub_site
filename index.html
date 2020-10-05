@@ -71,6 +71,10 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="assets/css/styles.min.css?h=45b8714f472456d91cdf79673595fb87"
+    />
   </head>
 
   <body id="page-top">
@@ -80,12 +84,7 @@
       style="background: #696967"
     >
       <div class="container">
-        <a
-          class="navbar-brand"
-          href="#page-top"
-          style="font-family: bppongregular; font-size: 38px"
-          >black<strong>&nbsp;</strong>pearl</a
-        ><button
+        <button
           data-toggle="collapse"
           data-target="#navbarResponsive"
           class="navbar-toggler navbar-toggler-right"
@@ -97,7 +96,21 @@
         >
           <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div
+          class="collapse navbar-collapse"
+          id="navbarResponsive"
+          style="
+            background: url('assets/img/black_pearl_logo_320.gif?h=8fe86d6e6e25ef1046602431e3bf646a')
+              no-repeat;
+            background-size: contain;
+          "
+        >
+          <a
+            class="navbar-brand"
+            href="#page-top"
+            style="font-family: 'Advent Pro', sans-serif; font-size: 38px"
+            >&nbsp; &nbsp; &nbsp; &nbsp;BLACK PEARL</a
+          >
           <ul class="nav navbar-nav ml-auto text-uppercase">
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#services"
@@ -125,18 +138,25 @@
     <header
       class="masthead"
       style="
-        background: url('assets/img/black_pearl_logo_640.gif?h=2f208953af7d864679afaaf58ea86aaa')
+        background: url('assets/img/laptop-1200x900.jpg?h=aed9cc8e318ba1873b981977b1ad27c2')
             center / contain no-repeat,
-          #1d3659;
+          #000;
+        opacity: 1;
+        filter: contrast(100%) invert(0%) saturate(100%) sepia(0%);
       "
     >
-      <div class="container">
+      <div class="container" style="opacity: 1">
         <div class="intro-text">
           <div class="intro-lead-in">
             <span style="color: rgb(255, 255, 255)">DevSecOps done right!</span>
           </div>
-          <div class="intro-heading text-uppercase">
-            <span>It's Nice To Meet You</span>
+          <div
+            class="intro-heading text-uppercase"
+            style="filter: brightness(100%)"
+          >
+            <span style="filter: hue-rotate(0deg) invert(0%) sepia(0%)"
+              >Welcome to Black Pearl</span
+            >
           </div>
           <a
             class="btn btn-primary btn-xl text-uppercase js-scroll-trigger"
@@ -459,7 +479,7 @@
                   <a href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -474,13 +494,13 @@
                 src="assets/img/team/pink_bike.jpg?h=09807e18f7e958eb70d94c0a30af25b6"
               />
               <h4>Michael MacFadden</h4>
-              <p class="text-muted">Lead Marketer</p>
+              <p class="text-muted">CTO/Co-Founder</p>
               <ul class="list-inline social-buttons">
                 <li class="list-inline-item">
                   <a href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -501,7 +521,7 @@
                   <a href="#"><i class="fa fa-twitter"></i></a>
                 </li>
                 <li class="list-inline-item">
-                  <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
                 </li>
                 <li class="list-inline-item">
                   <a href="#"><i class="fa fa-linkedin"></i></a>
@@ -516,28 +536,28 @@
       <div class="container">
         <div class="row">
           <div class="col-sm-6 col-md-3">
-            <a href="#"
+            <a href="https://www.secnav.navy.mil/Pages/default.aspx"
               ><img
                 class="img-fluid d-block mx-auto"
                 src="assets/img/clients/USNc.gif?h=851a82ed7aa4e3090d49dc51ffd8458c"
             /></a>
           </div>
           <div class="col-sm-6 col-md-3">
-            <a href="#"
+            <a href="https://www.navy.mil/"
               ><img
                 class="img-fluid d-block mx-auto"
                 src="assets/img/clients/USN.png?h=531d2206ef7c3c2a33cef4c1e2daf09b"
             /></a>
           </div>
           <div class="col-sm-6 col-md-3">
-            <a href="#"
+            <a href="https://www.marines.mil/"
               ><img
                 class="img-fluid d-block mx-auto"
                 src="assets/img/clients/USMCc.gif?h=18e9acdf8a70281998d3b22b67311146"
             /></a>
           </div>
           <div class="col-sm-6 col-md-3">
-            <a href="#"
+            <a href="https://software.af.mil/team/platformone/"
               ><img
                 class="img-fluid d-block mx-auto"
                 src="assets/img/clients/PlatformOne_Logo_200.png?h=20521e79cd9cbbfc99f1da7723a823df"
@@ -642,9 +662,7 @@
               <li class="list-inline-item">
                 <a href="#"><i class="fa fa-twitter"></i></a>
               </li>
-              <li class="list-inline-item">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-              </li>
+              <li class="list-inline-item"></li>
               <li class="list-inline-item">
                 <a href="#"><i class="fa fa-linkedin"></i></a>
               </li>
